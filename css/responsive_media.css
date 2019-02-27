@@ -1,9 +1,5 @@
 .name:before {content:"Desktop";}
 
-<<<<<<< HEAD
-=======
-/* Portrait orientation */
->>>>>>> Tested
 @media(orientation: portrait) {
   @media (max-width: 1024px) {
     .name:before {content: "iPad Pro : Portrait"}
