@@ -1,5 +1,9 @@
 .name:before {content:"Desktop";}
 
+<<<<<<< HEAD
+=======
+/* Portrait orientation */
+>>>>>>> Tested
 @media(orientation: portrait) {
   @media (max-width: 1024px) {
     .name:before {content: "iPad Pro : Portrait"}
@@ -26,7 +30,12 @@
     .showcase {background:brown; color: white;}
   }
 }
+<<<<<<< HEAD
   
+=======
+
+/* Landscape orientation */
+>>>>>>> Tested
 @media(orientation:landscape) {
   @media (max-width: 1366px) {
     .name:before {content: "iPad Pro : Landsacpe"}
