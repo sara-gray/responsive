@@ -1,0 +1,59 @@
+.name:before {content:"Desktop";}
+
+@media(orientation: portrait) {
+  @media (max-width: 1024px) {
+    .name:before {content: "iPad Pro : Portrait"}
+    .showcase {background:green; color: white;}
+  }
+  @media (max-width: 768px) {
+    .name:before {content: "iPad : Portrait"}
+    .showcase {background: purple; color: white;}
+  }
+  @media (max-width: 414px) {
+    .name:before {content: "iPhone6/7/8 Plus : Portrait"}
+    .showcase {background:coral; color: white;}
+  }
+  @media (max-width: 375px) {
+    .name:before {content: "iPhone6/7/8/X : Portrait"}
+    .showcase {background:blue; color: white;}
+  }
+  @media (max-width: 360px) {
+    .name:before {content: "Galaxy S5 : Portrait"}
+    .showcase {background:fuchsia; color: white;}
+  }
+  @media (max-width: 320px) {
+    .name:before {content: "iPhone5/SE : Portrait"}
+    .showcase {background:brown; color: white;}
+  }
+}
+  
+@media(orientation:landscape) {
+  @media (max-width: 1366px) {
+    .name:before {content: "iPad Pro : Landsacpe"}
+    .showcase {background: green; color: white;}
+  }
+  @media (max-width: 1024px) {
+    .name:before {content: "iPad : Landsacpe"}
+    .showcase {background: purple; color: white;}
+  }
+  @media (max-width: 812px) {
+    .name:before {content: "iPhoneX : Landscape"}
+    .showcase {background:blue; color: white;}
+  } 
+  @media (max-width: 736px) {
+    .name:before {content: "iPhone6/7/8 Plus : Landscape"}
+    .showcase {background:coral; color: white;}
+  } 
+  @media (max-width: 667px) {
+    .name:before {content: "iPhone6/7/8 : Landscape"}
+    .showcase {background:darkblue; color: white;}
+  }
+  @media (max-width: 640px) {
+    .name:before {content: "Galaxy S5 : Landscape"}
+    .showcase {background:fuchsia; color: white;}
+  }
+  @media (max-width: 568px) {
+    .name:before {content: "iPhone5/SE : Landscape"}
+    .showcase {background:brown; color: white;}
+  }
+}
